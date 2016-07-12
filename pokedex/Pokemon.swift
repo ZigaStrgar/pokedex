@@ -13,7 +13,7 @@ class Pokemon {
     private var _id: Int!
     
     var name: String {
-        return _name
+        return _name.capitalizedString
     }
     
     var id: Int {
