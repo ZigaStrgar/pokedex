@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514B683F1D35340300CA22C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B683E1D35340300CA22C2 /* Constants.swift */; };
 		515BBEFD1D35037C00543388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515BBEFC1D35037C00543388 /* AppDelegate.swift */; };
 		515BBEFF1D35037C00543388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515BBEFE1D35037C00543388 /* ViewController.swift */; };
 		515BBF041D35037C00543388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515BBF031D35037C00543388 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		514B683E1D35340300CA22C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		515BBEF91D35037C00543388 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		515BBEFC1D35037C00543388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		515BBEFE1D35037C00543388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				515BBF181D35108700543388 /* csv.swift */,
+				514B683E1D35340300CA22C2 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				515BBF171D350A4100543388 /* PokemonCell.swift in Sources */,
 				515BBEFD1D35037C00543388 /* AppDelegate.swift in Sources */,
 				515BBF201D3523C900543388 /* PokemonDetailVC.swift in Sources */,
+				514B683F1D35340300CA22C2 /* Constants.swift in Sources */,
 				515BBF151D3505F400543388 /* Pokemon.swift in Sources */,
 				515BBF191D35108700543388 /* csv.swift in Sources */,
 			);

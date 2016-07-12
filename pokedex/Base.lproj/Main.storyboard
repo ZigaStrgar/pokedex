@@ -196,29 +196,29 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-pA-kjb">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="cb7-pA-kjb">
                                         <rect key="frame" x="0.0" y="189" width="560" height="78"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCt-HV-AkE">
-                                                <rect key="frame" x="0.0" y="0.0" width="140" height="78"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="127" height="78"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Grass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SbB-7g-NLh">
-                                                <rect key="frame" x="140" y="0.0" width="140" height="78"/>
+                                                <rect key="frame" x="127" y="0.0" width="135" height="78"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Defense:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vB0-X6-DwO">
-                                                <rect key="frame" x="280" y="0.0" width="140" height="78"/>
+                                                <rect key="frame" x="262" y="0.0" width="214" height="78"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.95686274510000002" green="0.31764705879999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Swc-2C-OFj">
-                                                <rect key="frame" x="420" y="0.0" width="140" height="78"/>
+                                                <rect key="frame" x="475" y="0.0" width="85" height="78"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -393,7 +393,7 @@
                         <outlet property="heightLbl" destination="sJr-n0-hbf" id="Mn4-af-KNo"/>
                         <outlet property="idLbl" destination="hyW-Fa-O9G" id="47V-X2-4v1"/>
                         <outlet property="mainImg" destination="EcH-JQ-gkI" id="u0L-lx-jJB"/>
-                        <outlet property="nameLbl" destination="yd7-5O-ujn" id="WG9-4Q-PFr"/>
+                        <outlet property="nameLbl" destination="1hm-XE-j8w" id="DJf-2S-7Ud"/>
                         <outlet property="nextEvoLbl" destination="5p7-gY-CEK" id="ocz-Hd-rpn"/>
                         <outlet property="typeLbl" destination="SbB-7g-NLh" id="bJV-xv-yVC"/>
                         <outlet property="weightLbl" destination="TfE-Yc-6iK" id="8fb-Mk-qxm"/>
